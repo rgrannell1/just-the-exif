@@ -5,7 +5,7 @@ A reasonably fast EXIF reader.
 
 ## Why?
 
-Other EXIF extractors are ungodly slow (1.3 seconds for examples I've tested). `just-the-exif` can extract exif data from my entire photo library in ten seconds, which I consider fast enough.
+Other EXIF extractors are ungodly slow (1.3 seconds per image for examples I've tested). `just-the-exif` can extract exif data from my entire photo library in ten seconds, which I consider fast enough.
 
 ## License
 
