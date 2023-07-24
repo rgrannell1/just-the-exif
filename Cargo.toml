@@ -1,0 +1,17 @@
+[package]
+name = "just-the-exif"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "A command line tool to extract EXIF data from images and output as JSON"
+repository = "https://github.com/rgrannell1/exif-please"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+kamadak-exif = "0.5.5"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+docopt = "1.1.0"
+rayon = "1.5.0"
+glob = "0.3.0"
